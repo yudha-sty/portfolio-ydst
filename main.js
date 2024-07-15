@@ -28,20 +28,8 @@ let clipNames = [
 ];
 let projects = [
   {
-    image: 'textures/project-spaze.webp',
-    url: 'https://www.spaze.social/',
-  },
-  {
-    image: 'textures/project-myteachers.jpg',
-    url: 'https://myteachers.com.au/',
-  },
-  {
-    image: 'textures/project-wholesale.jpg',
-    url: 'https://wholesale.com.np/',
-  },
-  {
-    image: 'textures/project-pelotero.jpg',
-    url: 'https://www.peloterosenlaweb.com/',
+    image: 'textures/project-bem.jpg',
+    url: 'https://bem.sttindonesia.ac.id/',
   },
 ];
 let aboutCameraPos = {
@@ -317,7 +305,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0x171f27, flatShading: true }),
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
-    const titleGeo = new TextGeometry('SUSHIL THAPA', {
+    const titleGeo = new TextGeometry('YUDHA SETYAWAN', {
       font: font,
       size: 0.08,
       height: 0.01,
@@ -334,7 +322,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
     const subTitleGeo = new TextGeometry(
-      'Web Designer / Developer / Content Creator',
+      ' Developer / Data Analyst / Business Analyst / Project Management',
       {
         font: font,
         size: 0.018,
